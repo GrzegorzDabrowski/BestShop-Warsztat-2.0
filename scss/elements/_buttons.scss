@@ -1,0 +1,17 @@
+%btn {
+  color: $color-white;
+  font-weight: 700;
+  border: none;
+  display: inline-block;
+}
+
+.btn {
+  &-primary {
+    @extend %btn;
+    padding: 23px 92px;
+    background-color: $color-primary;
+    box-shadow: 5px 10px 14px $color-primary-shadow;
+    border-radius: 40px;
+    margin: 0 33px;
+  }
+}
