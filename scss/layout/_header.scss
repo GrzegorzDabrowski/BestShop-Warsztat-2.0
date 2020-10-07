@@ -15,6 +15,7 @@
       font-weight: 700;
       font-size: 0.6875rem;
       letter-spacing: 3.28px;
+      text-transform: uppercase;
       color: $color-grey;
       transition: 0.2s;
       &:hover {
@@ -33,6 +34,7 @@
     width: 100%;
     padding-bottom: 20px;
     display: none;
+    transition: 0.3s;
 
     .nav-link {
       display: block;
@@ -77,6 +79,44 @@
         &:last-child {
           margin-bottom: 0;
         }
+      }
+
+      @include desktop {
+        display: none;
+      }
+    }
+  }
+}
+
+@include desktop {
+  .header {
+    &-container {
+      margin: 0 auto;
+      max-width: 1352px;
+    }
+    &-nav {
+      display: flex;
+      flex-direction: row;
+      position: relative;
+      top: 0;
+      padding-bottom: 0;
+      .nav-link {
+        padding: 33px 18px 22px;
+      }
+    }
+  }
+
+  .nav {
+    &-element {
+      padding: 0 26px;
+      &:last-child {
+        padding-right: 0;
+      }
+    }
+    &-link {
+      border-bottom: 4px solid transparent;
+      &:hover {
+        border-color: $color-primary;
       }
     }
   }
