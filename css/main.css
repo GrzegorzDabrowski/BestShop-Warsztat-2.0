@@ -339,6 +339,11 @@ h2 {
 .statistics {
   margin-top: 50px;
 }
+@media screen and (min-width: 800px) {
+  .statistics {
+    margin-top: 100px;
+  }
+}
 .statistics-title {
   text-align: center;
 }
@@ -348,13 +353,27 @@ h2 {
   flex-direction: column;
   margin: 35px auto 50px;
 }
+@media screen and (min-width: 800px) {
+  .statistics-container {
+    max-width: 800px;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 100px auto 120px;
+  }
+}
 .statistics-example {
+  max-width: 160px;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
   margin-bottom: 35px;
   font-family: "Raleway", sans-serif;
+}
+@media screen and (min-width: 800px) {
+  .statistics-example {
+    margin-bottom: 0;
+  }
 }
 .statistics-example:last-child {
   margin-bottom: 0;
@@ -365,6 +384,9 @@ h2 {
 .statistics-example:nth-child(1) .statistics-img {
   top: 0;
   left: 45%;
+}
+.statistics-example:nth-child(1) .statistics-text {
+  margin-bottom: 20px;
 }
 .statistics-example:nth-child(2) .statistics-circle {
   background-color: #08a6e4;

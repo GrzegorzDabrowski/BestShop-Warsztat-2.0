@@ -18,6 +18,13 @@ h2 {
   margin: 0 35px; //sprawdź to, jakby się rozjeżdzały marginesy w desktopie...
 }
 
+// .container {
+//   @include desktop {
+//     width: 1352px;
+//     margin: 0 auto;
+//   }
+// }
+
 .logo {
   font-family: $font-raleway;
   font-size: 2rem;
