@@ -15,6 +15,7 @@ a {
 h2 {
   font-family: $font-raleway;
   font-size: 2.25rem;
+  margin: 0 35px; //sprawdź to, jakby się rozjeżdzały marginesy w desktopie...
 }
 
 .logo {
