@@ -1,0 +1,116 @@
+.benefits {
+  padding: 43px 0;
+  background-color: $color-light-grey;
+
+  &-container {
+    padding: 0 30px;
+  }
+
+  &-single {
+    background-color: $color-white;
+    border: 1px solid #e8e9ed;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    margin-bottom: 41px;
+    padding: 0 22px;
+    align-items: center;
+
+    &-notebook {
+      .benefits-img {
+        margin: 40px 0 0;
+        // position: relative;
+
+        img {
+          width: 193px;
+          height: auto;
+          position: relative;
+          z-index: 2;
+        }
+
+        &::before {
+          content: "";
+          width: 90px;
+          height: 90px;
+          background-color: $color-redish;
+          display: block;
+          border-radius: 40px;
+          position: absolute;
+          top: -30px;
+          right: -10px;
+          transform: rotate(45deg);
+        }
+      }
+    }
+
+    &-phone {
+      .benefits-img {
+        margin-top: 30px;
+
+        img {
+          width: 175px;
+          height: auto;
+          position: relative;
+          z-index: 2;
+        }
+
+        &::before {
+          content: "";
+          width: 132px;
+          height: 132px;
+          background-color: $color-primary;
+          display: block;
+          border-radius: 50%;
+          position: absolute;
+          left: 0;
+          top: -10px;
+        }
+      }
+    }
+  }
+
+  &-double {
+    > div {
+      margin-bottom: 0;
+    }
+
+    .benefits-single-image {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: $color-green;
+      border: none;
+      margin-top: -5px;
+
+      img {
+        width: 295px;
+        height: auto;
+        margin-top: 55px;
+      }
+    }
+  }
+
+  &-title {
+    margin-top: 26px;
+  }
+
+  &-text {
+    box-sizing: content-box;
+    max-width: none;
+    margin: 0;
+  }
+
+  &-description {
+    margin: 30px 0;
+    line-height: 1.375rem;
+  }
+
+  &-img {
+    position: relative;
+
+    img {
+      position: relative;
+      z-index: 2;
+    }
+  }
+}
