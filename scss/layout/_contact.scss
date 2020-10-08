@@ -1,0 +1,110 @@
+.contact {
+  padding: 55px 100px 100px;
+
+  &-container {
+    margin: 0 auto;
+    width: 896px;
+    display: flex;
+    justify-content: center;
+  }
+
+  &-column {
+    width: 50%;
+  }
+
+  &-text {
+    font-weight: 400;
+    font-size: 1rem;
+    margin: 22px 0 42px 0;
+  }
+
+  &-details {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    & a {
+      font-weight: 600;
+      font-size: 1rem;
+      color: $color-grey;
+      margin-right: 20px;
+    }
+    & img {
+      margin-right: 10px;
+    }
+  }
+
+  &-form {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.form {
+  &-field {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &-label {
+    font-weight: 800;
+    font-size: 11px;
+    letter-spacing: 3.28px;
+    color: $color-primary;
+    text-transform: uppercase;
+  }
+
+  &-input {
+    border: none;
+    border-bottom: 1px solid $color-grey-secondary;
+    line-height: 42px;
+    background-color: transparent;
+  }
+
+  &-consent {
+    margin-top: 30px;
+  }
+
+  &-checkbox {
+    display: flex;
+    cursor: pointer;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 20px;
+
+    & input {
+      position: absolute;
+      opacity: 0;
+      cursor: pointer;
+      height: 0;
+      width: 0;
+    }
+
+    & span {
+      width: 24px;
+      height: 24px;
+      border: 1px solid $color-grey-secondary;
+      border-radius: 4px;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+
+    & input:checked + span {
+      background-image: url("../assets/Checkmark.svg");
+      background-position: center;
+      background-size: 50%;
+      background-repeat: no-repeat;
+    }
+  }
+}
+
+.name-input {
+  margin-bottom: 42px;
+}
+
+.consent-text {
+  font-size: 12px;
+  line-height: 17px;
+  color: #707070;
+}

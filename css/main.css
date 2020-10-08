@@ -172,7 +172,7 @@ h2 {
   color: #08a6e4;
 }
 
-.btn-primary {
+.btn-send, .btn-begin, .btn-primary {
   color: #fff;
   font-weight: 700;
   border: none;
@@ -185,6 +185,34 @@ h2 {
   box-shadow: 5px 10px 14px rgba(7, 172, 230, 0.16);
   border-radius: 40px;
   margin: 0 33px;
+}
+.btn-begin {
+  font-size: 13px;
+  padding: 16px 57px;
+  background-color: #fb3b64;
+  border-radius: 23px;
+  position: relative;
+}
+.btn-basic {
+  top: 20px;
+}
+.btn-professional {
+  background-color: #07ace6;
+  top: 25px;
+  box-shadow: 5px 10px 14px rgba(7, 172, 230, 0.16);
+}
+.btn-premium {
+  background-color: #55dfb4;
+  top: 25px;
+}
+.btn-send {
+  padding: 20px 97px;
+  align-self: flex-end;
+  margin-top: 20px;
+  font-size: 13px;
+  background-color: #08a6e4;
+  border-radius: 35px;
+  box-shadow: 5px 10px 14px rgba(7, 172, 230, 0.16);
 }
 
 .header {
@@ -626,14 +654,14 @@ h2 {
   .benefits-text {
     max-width: 415px;
   }
-}
-.benefits-text::after {
-  content: "";
-  width: 332px;
-  height: 4px;
-  background-color: var(--accent-color);
-  display: block;
-  margin-top: 50px;
+  .benefits-text::after {
+    content: "";
+    width: 332px;
+    height: 4px;
+    background-color: var(--accent-color);
+    display: block;
+    margin-top: 50px;
+  }
 }
 .benefits-description {
   margin: 30px 0;
@@ -645,5 +673,244 @@ h2 {
 .benefits-img img {
   position: relative;
   z-index: 2;
+}
+
+.pricing {
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.pricing-boxes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+.pricing-offer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 370px;
+  border: 1px solid black;
+  border-radius: 18px;
+}
+.pricing-details {
+  margin-top: 34px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.pricing-details {
+  margin-top: 34px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+h3 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: #13253b;
+}
+
+.price {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 2.875rem;
+  margin-top: 25px;
+}
+
+.limited-offer {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  color: #13253b;
+  margin-top: 15px;
+}
+
+.offer-list {
+  text-align: center;
+}
+
+.list-item {
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.list-item::before {
+  content: "";
+  width: 11px;
+  height: 11px;
+  display: inline-block;
+  margin-right: 10px;
+  background-image: url("../assets/Checkmark-1.svg");
+}
+
+.list-item-not::before {
+  background-image: url("../assets/Close.svg");
+}
+
+.offer-basic {
+  border-color: #fb3b64;
+}
+
+.offer-basic .price {
+  color: #fb3b64;
+  margin-bottom: 30px;
+}
+
+.offer-professional {
+  border-color: #07ace6;
+  box-shadow: 5px 10px 27px rgba(7, 172, 230, 0.16);
+  width: 400px;
+  margin: 0 40px;
+}
+
+.offer-professional .price {
+  color: #07ace6;
+}
+
+.offer-professional .list-item {
+  margin-bottom: 25px;
+}
+
+.offer-premium {
+  border-color: #55dfb4;
+}
+
+.offer-premium .price {
+  color: #55dfb4;
+}
+
+.contact {
+  padding: 55px 100px 100px;
+}
+.contact-container {
+  margin: 0 auto;
+  width: 896px;
+  display: flex;
+  justify-content: center;
+}
+.contact-column {
+  width: 50%;
+}
+.contact-text {
+  font-weight: 400;
+  font-size: 1rem;
+  margin: 22px 0 42px 0;
+}
+.contact-details {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.contact-details a {
+  font-weight: 600;
+  font-size: 1rem;
+  color: #a5a5a5;
+  margin-right: 20px;
+}
+.contact-details img {
+  margin-right: 10px;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+}
+.form-label {
+  font-weight: 800;
+  font-size: 11px;
+  letter-spacing: 3.28px;
+  color: #08a6e4;
+  text-transform: uppercase;
+}
+.form-input {
+  border: none;
+  border-bottom: 1px solid #95989a;
+  line-height: 42px;
+  background-color: transparent;
+}
+.form-consent {
+  margin-top: 30px;
+}
+.form-checkbox {
+  display: flex;
+  cursor: pointer;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 20px;
+}
+.form-checkbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+.form-checkbox span {
+  width: 24px;
+  height: 24px;
+  border: 1px solid #95989a;
+  border-radius: 4px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.form-checkbox input:checked + span {
+  background-image: url("../assets/Checkmark.svg");
+  background-position: center;
+  background-size: 50%;
+  background-repeat: no-repeat;
+}
+
+.name-input {
+  margin-bottom: 42px;
+}
+
+.consent-text {
+  font-size: 12px;
+  line-height: 17px;
+  color: #707070;
+}
+
+footer {
+  background-color: #f7f7f7;
+  box-shadow: 0px -5px 40px rgba(0, 0, 0, 0.16);
+  height: 89px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  align-items: center;
+}
+
+.footer-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-logo {
+  font-size: 1.625rem;
+  line-height: 30px;
+}
+
+.copyright {
+  font-size: 11px;
+  color: #a5a5a5;
+  padding-top: 7px;
+}
+
+.social-media a:last-child {
+  margin-left: 20px;
 }
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,32 @@
+footer {
+  background-color: $color-light-grey;
+  box-shadow: 0px -5px 40px rgba(0, 0, 0, 0.16);
+  height: 89px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  align-items: center;
+}
+
+.footer-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-logo {
+  font-size: 1.625rem;
+  line-height: 30px;
+}
+
+.copyright {
+  font-size: 11px;
+  color: #a5a5a5;
+  padding-top: 7px;
+}
+
+.social-media a:last-child {
+  margin-left: 20px;
+}

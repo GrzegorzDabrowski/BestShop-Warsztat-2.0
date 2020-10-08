@@ -176,15 +176,14 @@
     @include desktop {
       max-width: 415px;
       //   margin: 90px 36px;
-    }
-
-    &::after {
-      content: "";
-      width: 332px;
-      height: 4px;
-      background-color: var(--accent-color);
-      display: block;
-      margin-top: 50px;
+      &::after {
+        content: "";
+        width: 332px;
+        height: 4px;
+        background-color: var(--accent-color);
+        display: block;
+        margin-top: 50px;
+      }
     }
   }
 
