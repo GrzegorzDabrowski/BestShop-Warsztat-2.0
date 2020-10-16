@@ -797,6 +797,10 @@ h3 {
 .contact-column {
   width: 50%;
 }
+.contact-title {
+  font-family: "Raleway", sans-serif;
+  font-size: 3.0625rem;
+}
 .contact-text {
   font-weight: 400;
   font-size: 1rem;
