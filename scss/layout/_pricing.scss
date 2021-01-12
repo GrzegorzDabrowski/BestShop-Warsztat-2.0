@@ -4,12 +4,19 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  @include tablet {
+    margin: 50px auto;
+  }
 
   &-boxes {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 50px;
+    @include tablet {
+      flex-direction: column;
+      width: 100%;
+    }
   }
 
   &-offer {
@@ -19,6 +26,16 @@
     width: 370px;
     border: 1px solid black;
     border-radius: 18px;
+    @include tablet {
+      width: 100%;
+      max-width: 370px;
+      margin-bottom: 50px;
+      justify-content: center;
+      padding: 25px 10px 0 10px;
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
   }
 
   &-details {
@@ -92,7 +109,8 @@ h3 {
   border-color: $color-blue;
   box-shadow: 5px 10px 27px $color-primary-shadow;
   width: 400px;
-  margin: 0 40px;
+  margin-right: 40px;
+  margin-left: 40px;
 }
 
 .offer-professional .price {

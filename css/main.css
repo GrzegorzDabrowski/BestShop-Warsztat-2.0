@@ -158,9 +158,9 @@ h2 {
   width: 100%;
   padding: 0 15px;
 }
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1125px) {
   .container {
-    width: 1352px;
+    max-width: 1352px;
     margin: 0 auto;
   }
 }
@@ -285,13 +285,13 @@ h2 {
 .header .menu-toggle span:last-child {
   margin-bottom: 0;
 }
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1125px) {
   .header .menu-toggle {
     display: none;
   }
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1125px) {
   .header-container {
     margin: 0 auto;
     max-width: 1352px;
@@ -330,7 +330,7 @@ h2 {
   margin-top: 100px;
   text-align: center;
 }
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1125px) {
   .opening-content {
     margin-top: 130px;
   }
@@ -339,7 +339,7 @@ h2 {
   font-family: "Raleway", sans-serif;
   font-size: 2.1875rem;
 }
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1125px) {
   .opening-header {
     font-size: 3.0625rem;
   }
@@ -351,7 +351,7 @@ h2 {
   padding: 0 25px;
   line-height: 22px;
 }
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1125px) {
   .opening-text {
     margin-bottom: 38px;
   }
@@ -361,14 +361,14 @@ h2 {
   transform: translateX(-28%);
   margin-top: 51px;
 }
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1125px) {
   .opening-img {
     width: 100%;
     height: auto;
     transform: translateX(0%);
   }
 }
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1125px) {
   .opening .btn-primary {
     padding: 23px 157px;
   }
@@ -377,7 +377,7 @@ h2 {
 .statistics {
   margin-top: 50px;
 }
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1125px) {
   .statistics {
     margin-top: 100px;
   }
@@ -392,7 +392,7 @@ h2 {
   flex-direction: column;
   margin: 35px auto 50px;
 }
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1125px) {
   .statistics-container {
     max-width: 800px;
     flex-direction: row;
@@ -409,7 +409,7 @@ h2 {
   margin-bottom: 35px;
   font-family: "Raleway", sans-serif;
 }
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1125px) {
   .statistics-example {
     margin-bottom: 0;
   }
@@ -466,7 +466,7 @@ h2 {
   padding: 43px 0;
   background-color: #f7f7f7;
 }
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1125px) {
   .benefits {
     padding: 105px 0;
   }
@@ -474,7 +474,7 @@ h2 {
 .benefits-container {
   padding: 0 30px;
 }
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1125px) {
   .benefits-container {
     padding: 0 100px;
   }
@@ -489,7 +489,7 @@ h2 {
   padding: 0 22px;
   align-items: center;
 }
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1125px) {
   .benefits-single {
     flex-direction: row;
     justify-content: space-between;
@@ -501,7 +501,7 @@ h2 {
 .benefits-single-notebook {
   --accent-color: #fb3b64;
 }
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1125px) {
   .benefits-single-notebook {
     flex-direction: row-reverse;
   }
@@ -512,7 +512,7 @@ h2 {
 .benefits-single-notebook .benefits-img {
   margin: 40px 0 0;
 }
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1125px) {
   .benefits-single-notebook .benefits-img {
     margin-right: 117px;
     margin-bottom: 38px;
@@ -524,7 +524,7 @@ h2 {
   position: relative;
   z-index: 2;
 }
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1125px) {
   .benefits-single-notebook .benefits-img img {
     width: 386px;
   }
@@ -541,7 +541,7 @@ h2 {
   right: -10px;
   transform: rotate(45deg);
 }
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1125px) {
   .benefits-single-notebook .benefits-img::before {
     width: 180px;
     height: 180px;
@@ -552,7 +552,7 @@ h2 {
 .benefits-single-phone {
   --accent-color: #08a6e4;
 }
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1125px) {
   .benefits-single-phone {
     padding: 0 20px 0 70px;
   }
@@ -563,7 +563,7 @@ h2 {
 .benefits-single-phone .benefits-img {
   margin-top: 30px;
 }
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1125px) {
   .benefits-single-phone .benefits-img {
     margin-top: 0;
     padding-bottom: 30px;
@@ -575,7 +575,7 @@ h2 {
   position: relative;
   z-index: 2;
 }
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1125px) {
   .benefits-single-phone .benefits-img img {
     width: 426px;
     height: auto;
@@ -592,7 +592,7 @@ h2 {
   left: 0;
   top: -10px;
 }
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1125px) {
   .benefits-single-phone .benefits-img::before {
     width: 320px;
     height: 320px;
@@ -602,7 +602,7 @@ h2 {
 .benefits-double {
   --accent-color: #55dfb4;
 }
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1125px) {
   .benefits-double {
     display: flex;
   }
@@ -626,7 +626,7 @@ h2 {
   border: none;
   margin-top: -5px;
 }
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1125px) {
   .benefits-double .benefits-single-image {
     margin-left: 60px;
     margin-top: 0;
@@ -640,7 +640,7 @@ h2 {
 .benefits-title {
   margin-top: 26px;
 }
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1125px) {
   .benefits-title {
     margin-top: 0;
   }
@@ -650,7 +650,7 @@ h2 {
   max-width: none;
   margin: 0;
 }
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1125px) {
   .benefits-text {
     max-width: 415px;
   }
@@ -682,11 +682,22 @@ h2 {
   justify-content: center;
   align-items: center;
 }
+@media (max-width: 1124px) {
+  .pricing {
+    margin: 50px auto;
+  }
+}
 .pricing-boxes {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 50px;
+}
+@media (max-width: 1124px) {
+  .pricing-boxes {
+    flex-direction: column;
+    width: 100%;
+  }
 }
 .pricing-offer {
   display: flex;
@@ -695,6 +706,18 @@ h2 {
   width: 370px;
   border: 1px solid black;
   border-radius: 18px;
+}
+@media (max-width: 1124px) {
+  .pricing-offer {
+    width: 100%;
+    max-width: 370px;
+    margin-bottom: 50px;
+    justify-content: center;
+    padding: 25px 10px 0 10px;
+  }
+  .pricing-offer:last-child {
+    margin-bottom: 0;
+  }
 }
 .pricing-details {
   margin-top: 34px;
@@ -766,7 +789,8 @@ h3 {
   border-color: #07ace6;
   box-shadow: 5px 10px 27px rgba(7, 172, 230, 0.16);
   width: 400px;
-  margin: 0 40px;
+  margin-right: 40px;
+  margin-left: 40px;
 }
 
 .offer-professional .price {
@@ -788,14 +812,31 @@ h3 {
 .contact {
   padding: 55px 100px 100px;
 }
+@media (max-width: 1124px) {
+  .contact {
+    padding: 0;
+  }
+}
 .contact-container {
   margin: 0 auto;
-  width: 896px;
+  max-width: 896px;
   display: flex;
   justify-content: center;
 }
+@media (max-width: 1124px) {
+  .contact-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 15px;
+  }
+}
 .contact-column {
   width: 50%;
+}
+@media (max-width: 1124px) {
+  .contact-column {
+    width: 100%;
+  }
 }
 .contact-title {
   font-family: "Raleway", sans-serif;
@@ -806,16 +847,33 @@ h3 {
   font-size: 1rem;
   margin: 22px 0 42px 0;
 }
+@media (max-width: 1124px) {
+  .contact-text {
+    margin: 5px 0 35px;
+  }
+}
 .contact-details {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+}
+@media (max-width: 1124px) {
+  .contact-details {
+    align-items: flex-start;
+    margin-bottom: 15px;
+  }
 }
 .contact-details a {
   font-weight: 600;
   font-size: 1rem;
   color: #a5a5a5;
   margin-right: 20px;
+}
+@media (max-width: 1124px) {
+  .contact-details a {
+    margin-bottom: 15px;
+    margin-top: 5px;
+  }
 }
 .contact-details img {
   margin-right: 10px;
